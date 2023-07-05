@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image to ASCII Art Generator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Image to ASCII Art Generator</h1>
+    <p class="desc">
+        Free, without credit card, 
+        Image size limit: 80MB
+        <br>
+        <b>NO CONTENT LIMITS</b>
+    </p>
+    <input type="file" id="inputImage" accept="image/*" />
+    <p class="desc">Size:</p>
+    <input type="range" min="1" max="100" value="1" class="slider" id="sizeSlider">
+    <pre id="asciiArt"></pre>
+    <button id="copyButton">Copy to Clipboard</button>
+
+    <footer>
+        Made with ❤️ by PixelSlayer
+        <br>
+        Contact (Discord, yes they removed hashtag): iliker34 
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
